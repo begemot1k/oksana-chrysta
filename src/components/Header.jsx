@@ -3,7 +3,6 @@ export const Header = () => {
     <header>
       <div>
         <h2>Здравствуйте!</h2>
-        <div></div>
       </div>
     </header>
   );

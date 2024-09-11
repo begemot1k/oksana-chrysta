@@ -72,3 +72,39 @@ button:focus-visible {
   flex-direction: row;
   gap: 16px;
 }
+
+.image {
+  width: 360px;
+}
+
+.container {
+  width: 360px;
+}
+
+@media (min-width: 600px) {
+  .image {
+    width: 720px;
+  }
+}
+
+@media (min-width: 900px) {
+  .image {
+    width: 1200px;
+  }
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #f9f9f9 ;
+  color: #f9f9f9;
+  
+}
